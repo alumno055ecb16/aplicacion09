@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>VILLA ILUMINADA Y FERIA DE LA NOCHE BUENA </title>
+<link href="jquery-mobile/villa.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="phonegap.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page" id="Principal" data-theme="c">
+<div data-role="header">
+    	<h1> VILLA ILUMINADA Y FERIA DE LA NOCHE BUENA </h1>
+        </div>
+<div data-role="content">
+        <div data-role="collapsible">
+        <h1> INTRODUCCION</h1>
+        <div>
+        
+        <p><strong>Atlixco, nuevamente estará llena de la luz. Te esperarán noches de colorido que harán que pases una grata estancia, caminando por sus calles que te deslumbrarán a cada paso.</strong></p>
+        <div></div>
+        <p>La <strong>&ldquo;Villa Iluminada&rdquo;</strong> es un recorrido que resalta la belleza arquitectónica de esta ciudad, embelleciéndola con luz.  </p>
+        <p> </p>
+        <p>Durante más de cuarenta días las calles formarán un circuito de luz y color, vestidas de figuras y escenas alusivas a la navidad, las tradiciones y la identidad de la ciudad.</p>
+        <p> </p>
+        <p>Los edificios antiguos serán engalanados con luces, lo que destacará su bella arquitectura y valor histórico.</p>
+        <p>El recorrido del espectáculo iniciará en la <strong>Calle Hidalgo</strong>, bajando hacia el <strong>zócalo de Atlixco</strong>, pasa por el callejón <strong>Constitución</strong> y sigue por la calle 4 norte, frente al <strong>exconvento de El Carmen</strong>, llegará a calle <strong>Nicolás Bravo</strong>, después al boulevar Ferrocarriles y finalizará en el <strong>Parque Revolución</strong>.</p>
+<br>
+    
+    </div>
+    <div>
+    	<img src="imagenes/1.jpg" width="304" height="392"> 
+        <img src="imagenes/2.jpg" width="317" height="395"> <img src="imagenes/7.jpg" alt="" width="303" height="380"></div>
+        </div>
+        </div>
+<div>
+  <ul data-role="listview">
+    	<li><a href="#PaginaMI">¿CUANDO SURGIO?</a></li>
+    <li><a href="#PaginaMII">EN QUE CONSISTE</a></li>
+    	<li><a href="#PaginaMIII">VILLA ILUMINADA 2014</a></li>
+     <li><a href="#PaginaMIV">FOTOS DE LA VILLA ILUMINADA Y MAPA</a></li>
+     <li><a href="#PaginaMV">FERIA DE LA NOCHE BUENA</a></li>
+     <li><a href="#PaginaMVI">HISTORIA DE LA NOCHE BUENA</a></li>
+     <li><a href="#PaginaMVII">FOTOS DE LA FERIA DE LA NOCHE BUENA EN ATLIXCO</a></li>
+     </ul>
+</div>
+ 	<div data-role="footer" align="center" data-theme="a">
+    <div>
+    <img src="imagenes/2014-11-25 19.36.23.jpg" width="79" height="69">
+    </div>
+    <div>
+    <h4>SALOMON FLORES MIRANDA</h4>
+    <p>&nbsp;</p>
+    <body>
+<script>
+    function cambiarImagen()
+	{
+		elemento=document.getElementById('mifoco')
+		
+		if (elemento.src.match("imagenes/12.jpg"))
+		{
+			elemento.src="imagenes/36.jpg";
+		}
+		else
+		{
+			elemento.src="imagenes/12.jpg";
+		}
+	}
+	</script>
+   
+    <img id="mifoco" onClick="cambiarImagen()" src="imagenes/36.jpg" width="384" height="443">
+    
+</body>
+    
+    <canvas id="fxtextCanvas" width="600" height="550"></canvas>
+<script type="text/ecmascript">
+var fxtextCanvas, fxtextgraphics;
+function fxtextdraw_init() {
+	fxtextCanvas = document.getElementById('fxtextCanvas');
+	if (fxtextCanvas.getContext){
+		    fxtextgraphics = fxtextCanvas.getContext('2d');
+	}
+	fxtextdraw();
+}
+function fxtextdraw(){
+	fxtextgraphics.fontb="16px 'Arial'";
+	var sin =Math.sin(Math.PI/6);
+	var cos =Math.cos(Math.PI/6);
+	fxtextgraphics.translate(400, 200);
+	var c = 0;
+	for (var i=0; i < 12; i++) {
+		c = Math.floor(255 / 12 * i);
+		fxtextgraphics.fillStyle = "rgb(" + c + "," + c + "," + c + ")";
+		fxtextgraphics.fillText("salomon flores", 5, 30);
+		fxtextgraphics.transform(cos, sin, -sin, cos, 0, 0);
+	}
+}
+fxtextdraw_init();
+</script>
+<style type="text/css">
+body {
+	background-color: #5CF;
+}
+</style>
+    </div>
+    	</div>
+</div>
+
+<div data-role="page" id="PaginaMI" data-add-back-btn="true" data-theme="a">
+	<div data-role="header">
+    	<h1>¿CUANDO SURGIO?</h1>
+        <h2>¿CUANDO SURGIO LA VILLA ILUMINADA?</h2>
+        </div>
+        <div data-role="content" align="justify">
+        <div>
+       
+        <p>Villa iluminada nace para integrar a la  familia mexicana en un ambiente de luz y color,  enmarcado bajo la tranquilidad de la ciudad. Esta fiesta es digna de  compartirla con todos los visitantes. Creada con manos atlixquenses de mujeres,   hombres y jóvenes, que con pasión han  trabajado para crear esta magia y así generar el sustento para sus familias. Este  proyecto tiene el objetivo de preservar nuestra cultura y tradiciones  fomentando la convivencia  de paz y amor.</p>
+</ul>
+
+        <img src="imagenes/9.jpg" width="325" height="443">
+<img src="imagenes/10.jpg" width="353" height="443"></div>
+</div>
+	<div data-role="footer" data-theme="a">
+    <h4>"VILLA ILUMINADA"</h4>
+    </div>
+</div>
+</div>
+    
+    <div data-role="page" id="PaginaMII" data-add-back-btn="true" data-theme="a">
+	<div data-role="header">
+    	<h1>EN QUE CONSISTE</h1>
+        </div>
+      
+
+        <div data-role="content" align="center">
+        <div>
+        
+        <p>En punto de las 7 de la noche, miles de  personas esperaban en la penumbra del zócalo, &nbsp;el &ldquo;switch&rdquo; inaugural de la  segunda edición de la Villa Iluminada.<br>
+La Villa Iluminada es  un recorrido a pie por las principales calles de la ciudad, en el cuál&nbsp;se  resaltan sus atractivos arquitectónicos a través de la iluminación estratégica  con miles&nbsp;de metros de luces LED, que también conforman adornos con  motivos navideños. Los&nbsp;poblanos podrán disfrutar de este atractivo  turístico desde este sábado y hasta la segunda&nbsp;semana de enero del próximo  año.</p>
+        <p>Los tradicionales  antojitos mexicanos, bares, espectáculos artísticos de primer  nivel,&nbsp;conciertos y la Feria de la Noche Buena, revisten esta celebración  que conquistó a miles&nbsp;de turistas el año pasado y, a decir de las  autoridades del municipio, llegó para quedarse.</p>
+        </div>
+<div data-role="content" align="center"><img src="imagenes/12.jpg" width="353" height="476"><img src="imagenes/14.jpg" width="348" height="474"></div>
+</div>
+	<div data-role="footer" data-theme="a">
+    <h4>"VILLA ILUMINADA"</h4>
+    </div>
+</div>
+</div>
+
+    <div data-role="page" id="PaginaMIII" data-add-back-btn="true" data-theme="a">
+	<div data-role="header">
+    	<h1>VILLA ILUMINADA 2014 </h1>
+        
+        </div>
+        <div data-role="content" align="center">
+        <div>La noche de este martes, ante miles de familias y un espectáculo de pirotecnia, el alcalde de Atlixco, José Luis Galeazzi Berra, inauguró la Cuarta Edición de la Villa Iluminada, que concluirá el próximo 6 de enero de 2015. En esta ocasión, a través de 3 mil figuras nuevas y durante 43 días, todos los visitantes podrán disfrutar de la belleza arquitectónica de la ciudad de Atlixco, que se embellece con luces coloridas de variantes tonos y escenas alusivas a la época decembrina y la identidad atlixquense. Posterior al encendido, hubo un espectáculo de nieve en la calle Constitución, que miles de pequeños, con sus familias, disfrutaron al máximo. Villa Iluminada espera la llegada de entre 450 a 500 mil visitantes, lo cual permitirá tener una derrama económica de 55 a 60 millones de pesos, pues habrá poco más de 100 eventos culturales y artísticos, con la participación de 30 grupos provenientes de países como Guatemala, Colombia, España, Perú, Irlanda, Libia, Chile, Kenia e Italia, así como de México y la región. El recorrido inicia, como ya es tradición, en la Avenida Hidalgo esquina con la calle 7 sur, atravesando el Zócalo de la ciudad y continúa por la Calle Constitución, pasando por la calle 4 norte, frente al Ex Convento del Carmen, la calle Nicolás Bravo, recorriendo el Boulevard Ferrocarriles para finalizar en el Parque Revolución. También, dentro de  Villa Iluminada se va a presentar la Feria de la Nochebuena, del 28 de noviembre al 7 de diciembre y la Villa Infantil, que es un proyecto enfocado a los pequeños, a partir del día 12 de diciembre, ambos en el interior del Recinto Ferial. <br>
+       
+        </div>
+<div data-role="content" align="center"><img src="imagenes/17.jpg" alt="" width="317" height="424">
+<img src="imagenes/15.jpg" width="303" height="426">
+<img src="imagenes/villa.jpg" width="47%" height="51%"> </div>
+</div>
+	<div data-role="footer" data-theme="a">
+    <h4>"VILLA ILUMINADA"</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="PaginaMIV" data-add-back-btn="true" data-theme="a">
+	<div data-role="header">
+    	<h1>FOTOS DE LA VILLA ILUMINADA Y MAPA</h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+        <p>MAPA DE VILLA ILUMINADA</p>
+      <p>&nbsp;</p>
+        <img src="imagenes/mapa.jpg" width="59%" height="65%">
+<img src="imagenes/13.jpg" width="339" height="409"><img src="imagenes/18.jpg" alt="" width="265" height="367"><img src="imagenes/19.jpg" alt="" width="240" height="320"><img src="imagenes/2014-11-25 19.36.23.jpg" alt="" width="320" height="240"><img src="imagenes/1.jpg" alt="" width="240" height="320"><img src="imagenes/villa.jpg" alt="" width="640" height="426"></div>
+</div>
+	<div data-role="footer" data-theme="a">
+    <h4>"VILLA ILUMINADA"</h4>
+    </div>
+	
+</div>
+<div data-role="page" id="PaginaMV" data-add-back-btn="true" data-theme="b">
+	<div data-role="header">
+    	<h1>FERIA DE LA NOCHE BUENA</h1>
+        <h2>FERIA DE LA NOCHE BUENA</h2>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+      <p>A partir del 25 de noviembre los mejores productores de la región exponen y venden una variedad enorme de plantas de Nochebuena a precios competitivos en mayoreo y menudeo concentrados en el Recinto Ferial de Atlixco.</p>
+      <h5>&nbsp;</h5>
+      <br>
+      <div>
+        <div>Del 22 de noviembre al 1 de diciembre se llevará a cabo la duodécima edición de la Feria de la Nochebuena en el recinto ferial del municipio de Atlixco, en donde se estima una afluencia mayor a los 30 mil visitantes y la venta de más de 250 mil plantas. Así lo dio a conocer el secretario del comité de feria, Vicente Nieto Castillo.</div>
+        <div><br>
+        </div>
+        <div>En rueda de prensa celebrada en Puebla capital, Nieto Castillo destacó que este año 52 productores de Atlixco cultivaron un millón 300 mil nochebuenas de diversas variedades en 25 hectáreas; de esta cosecha, 70 por ciento es comercializado en diferentes estados de la República, por ejemplo, Tabasco, Campeche, Veracruz, Tamaulipas, Quintana Roo y Oaxaca. Además, 30 por ciento se desplaza en la feria y en los invernaderos del municipio.</div>
+        <div><br>
+        </div>
+        <div>Mencionó que el cultivo de la nochebuena debe ser en invernaderos debido a que la planta es muy delicada y requiere de muchos cuidados; en ese sentido, reconoció el gran esfuerzo de todos los productores para ubicar a la entidad poblana en el cuarto lugar a nivel nacional, sólo por debajo de estados como Michoacán, Morelos y el Estado de México.</div>
+        <div><br>
+        </div>
+        <div>Indicó que en esta feria los visitantes podrán adquirir flores con precios que van de los 12 a los 250 pesos, dependiendo del tamaño y la variedad de la nochebuena, que en esta temporada se convierte en el mejor obsequio; además, podrá encontrar diversos artículos como los árboles de navidad, pinos, artesanías, piñatas, esferas y otros adornos navideños.</div>
+        <div><br>
+        </div>
+        <div>&ldquo;Se cuenta con más de 15 variedades de nochebuena, en colores como el rojo, amarillo, marmoteadas, blancas, salmón, bicolor; aunque la que se está promoviendo más, por ser una novedad, es la winter, que parece un rosal pero es una nochebuena&rdquo;, refirió.</div>
+        <div><br>
+        </div>
+        <div>El reconocimiento y la invitación</div>
+        <div><br>
+        </div>
+        <div>Por su parte, el presidente del comité de feria y productor de la flor, Manuel Santiago, resaltó que el municipio de Atlixco tiene el primer lugar en la producción de la nochebuena en el estado de Puebla, siguiéndole otros municipios de la Sierra Norte.</div>
+        <div><br>
+        </div>
+        <div>En ese tenor, enfatizó que el objetivo de esta feria es continuar impulsando el producto a otros estados y buscar ser los primeros en el país: &ldquo;Afortunadamente, contamos con gran venta de otros lugares, lo cual nos permite salir adelante en la producción, pero sí requerimos de más apoyos en cuanto a difusión para poder ocupar el primer lugar en el país&rdquo;. </div>
+        <div><br>
+        </div>
+        <div>A su vez, agradeció el apoyo de las autoridades del ayuntamiento que encabeza Ricardo Camacho Corripio, a través de la Dirección de Turismo municipal, que preside Minerva Schiavón Núñez, para la difusión de este evento y por las instalaciones del recinto ferial y de todos los servicios que se necesitan para recibir a los compradores.</div>
+        <div><br>
+        </div>
+        <div>Indicó que a este evento arriban familias del interior de Puebla y de estados vecinos como Tlaxcala, Hidalgo, Veracruz y el Distrito Federal.</div>
+        <div><br>
+        </div>
+        <div>&ldquo;Hace 20 años la producción era baja, con apenas 6 mil plantas de nochebuena y sólo tres productores; actualmente existen 52, y la cosecha este año fue de 1.3 millones de plantas. Todo ello ha sido el resultado de la colaboración entre autoridades y los productores&rdquo;, subrayó tras resaltar que gracias a esta actividad se generan poco más de 500 empleos durante nueve meses.</div>
+        <div><br>
+        </div>
+        <div>Finalmente, Manuel Santiago hizo extensiva la invitación a todas las familias para que acudan a Atlixco a adquirir las nochebuenas y otros productos de temporada a precios accesibles, además de disfrutar de la exquisita gastronomía que se comercializará en el interior del recinto ferial, junto con otros atractivos turísticos que distinguen al municipio.</div>
+      </div>
+      <p>&nbsp;</p>
+
+
+
+        </div>
+<div data-role="content" align="center">
+<img src="imagenes/21.jpg" width="323" height="457">
+<img src="imagenes/22.jpg" width="382" height="342"><img src="imagenes/23.jpg" alt="" width="302" height="415"></div>
+</div>
+	<div data-role="footer" data-theme="b">
+    <h4>"FERIA DE LA NOCHE BUENA"</h4>
+    </div>
+</div>
+</div>
+
+
+<div data-role="page" id="PaginaMVI" data-add-back-btn="true" data-theme="b">
+	<div data-role="header">
+    	<h1>HISTORIA DE LA NOCHE BUENA</h1>
+       
+        </div>
+        <div data-role="content" align="justify">
+          <p>La <strong>Nochebuena</strong> se celebra la noche del 24 de diciembre, víspera del día de Navidad(25 de diciembre). Es la celebración cristiana de la noche en que nació Jesús. Las costumbres varían de unos países a otros, pero es bastante común una reunión familiar para cenar e intercambiarse regalos. Se considera como una fiesta de carácter cultural y familiar, ya que también se reúnen las familias aunque no haya celebración religiosa. </p>
+          <p>En >México se acostumbra presentar pastorelas -obras teatrales en las que se representa el nacimiento de Jesús- a la que a veces añaden toques cómicos y de actualidad política o social. También se celebran tradicionales <em>>posadas</em>, en las que se muestra la peregrinación de María y José cantando letanías, se reza el rosario y posteriormente se rompen las piñatas. Esta fiesta se ameniza con ponche, buñuelos y tamales y se entregan aguinaldos rellenos de colaciones y frutas. La fiesta se prolonga hasta muy entrada de la nochebuena.</p>
+       </div>
+        <div data-role="content" align="center">
+        <div>
+        <img src="imagenes/24.jpg" width="294" height="396">
+<img src="imagenes/25.jpg" width="389" height="326"><img src="imagenes/26.jpg" alt="" width="372" height="302"></div>
+</div>
+	<div data-role="footer" data-theme="b">
+    <h4>"FERIA DE LA NOCHE BUENA"</h4>
+    </div>
+</div>
+</div>
+<div data-role="page" id="PaginaMVII" data-add-back-btn="true" data-theme="b">
+	<div data-role="header">
+    	<h1>FOTOS DE LA FERIA DE LA NOCHE BUENA EN ATLIXCO</h1>
+       
+        </div>
+        <div data-role="content" align="justify">
+          
+          <p>FERIA DE NOCHE BUENA EN ATLIXCO</p>
+       </div>
+        <div data-role="content" align="center">
+        <div>
+        <img src="imagenes/27.jpg" width="320" height="240">
+<img src="imagenes/28.jpg" width="320" height="240"><img src="imagenes/30.jpg" alt="" width="320" height="240"><img src="imagenes/31.jpg" alt="" width="320" height="240"><img src="imagenes/34.jpg" alt="" width="240" height="320"><img src="imagenes/38.jpg" alt="" width="320" height="240"><img src="imagenes/39.jpg" alt="" width="320" height="240"><img src="imagenes/32.jpg" alt="" width="320" height="240"></div>
+</div>
+	<div data-role="footer" data-theme="b">
+    <h4>"FERIA DE LA NOCHE BUENA"</h4>
+    </div>
+</div>
+</div>
+
+
+
+  
+    
+    
+</body>
+</html>
